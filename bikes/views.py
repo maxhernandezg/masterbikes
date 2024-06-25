@@ -16,3 +16,6 @@ def login(request):
 def shopsingle(request):
     return render(request, 'bikes/shop-single.html')
 
+def shop(request):
+    return render(request, 'bikes/shop.html')
+
